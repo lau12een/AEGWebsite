@@ -46,8 +46,8 @@ section {
 }
 
 .aeglogo {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
 }
 
 
@@ -287,6 +287,30 @@ label {
     padding: 20px 20px 35px 20px;
     max-width: 350px;
     margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    border-spacing: 5px;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+th {
+    text-align: center;
 }
 
 /*
