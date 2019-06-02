@@ -466,19 +466,44 @@ cursor: pointer;
 
 /* ------------------------------------------------ */
 
+/*iPhone landscape*/
 
-/*Sizing for larger screens*/
-@media only screen and (min-width:820px) {
-
-    nav a {
-        font-size: 1em;
-    }
-
-
-
-
-    .first-col {
-        border-right: 1px solid dodgerblue;
-        border-bottom: none;
-    }
+@media only screen and (max-width: 480px) {
+.title-bg img {
+    width: 300px;
+    height: 300px;
+    padding-bottom: 20px;
 }
+    nav ul {
+    list-style: none;
+    padding-left: 0;
+        text-align: center;
+}
+    .contact-button {
+        display: block;
+}
+}
+
+
+/*iPhone portrait*/
+
+@media only screen and (max-width: 320px) {
+   .title-bg img {
+    width: 300px;
+    height: 300px;
+    padding-bottom: 20px;
+}
+     nav ul {
+    list-style: none;
+    padding-left: 0;
+        text-align: center;
+}
+        .contact-button {
+        display: block;
+}
+}
+
+
+
+
+
