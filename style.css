@@ -38,6 +38,7 @@ section {
     overflow: hidden;
     padding-bottom: 20px;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .aeglogo {
@@ -499,15 +500,16 @@ cursor: pointer;
     .contact-button {
         display: block;
 }
-    .contact-container {
+/*    .contact-container {*/
 /*    position: absolute;*/
-    width: 100%;
-    top: 100%;
+/*    width: 100%;*/
+/*    top: 100%;*/
 /*    transform: translateY(-50%);*/
-    text-align:center;
-    margin-top: 0px;
+/*    text-align:center;*/
+/*    margin-top: 0px;*/
    
         
+/*
 }
 
 .contact-method{
@@ -519,8 +521,10 @@ cursor: pointer;
     color: #fff;
 
     cursor: pointer;
-}
+*/
+/*}*/
 
+/*
 .contact-method i {
 
     left:0;
@@ -547,6 +551,7 @@ cursor: pointer;
    
 }
 
+*/
 
 
 }
