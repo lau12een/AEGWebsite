@@ -42,10 +42,14 @@ section {
     padding-right: 20px;
 }
 
-.aeglogo {
+.logo {
     width: 80px;
     height: 80px;
     border-radius: 50%;
+}
+
+.aeglogo {
+    width: 400px;
 }
 
 
@@ -95,7 +99,11 @@ footer .container {
     padding-bottom: 5px;
 }
 */
-
+h1 {
+    text-align: center;
+    color: black;
+    
+}
 h1,
 h2,
 h3 {
@@ -332,12 +340,42 @@ td.label {
     font-size:20px;
     color: white;
 }
+/*Ron Gallery */
+div.rongallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+    justify-content: center;
+  width: 180px;
+}
+
+div.rongallery:hover {
+  border: 1px solid #777;
+}
+
+div.rongallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.bio {
+    display: inline-block;
+}
+
+
 
 /* Slideshow container */
 .slideshow-container {
+  padding-top: 50px;
   max-width: 900px;
   position: relative;
   margin: auto;
+margin-top: 20px;
 }
 
 /* Hide the images by default */
@@ -384,7 +422,7 @@ td.label {
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
+/* Number text (1/6 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -484,14 +522,16 @@ cursor: pointer;
 
 
 /* ------------------------------------------------ */
+/*iPhone portrait*/
 
-/*iPhone landscape*/
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 590px) {
 .title-bg img {
     width: 300px;
     height: 300px;
     padding-bottom: 20px;
+}
+.aeglogo {
+    width: 200px;
 }
     nav ul {
     list-style: none;
@@ -501,59 +541,34 @@ cursor: pointer;
     .contact-button {
         display: block;
 }
-/*    .contact-container {*/
-/*    position: absolute;*/
-/*    width: 100%;*/
-/*    top: 100%;*/
-/*    transform: translateY(-50%);*/
-/*    text-align:center;*/
-/*    margin-top: 0px;*/
-   
-        
-/*
+.professor {
+    padding: 70px;
 }
 
-.contact-method{
-    width: 220px;
-    height: 140px;
-    display: inline-block;
-    background:  rgb(4, 41, 99, 0.5);
-    margin:10px;
-    color: #fff;
-
-    cursor: pointer;
-*/
-/*}*/
-
-/*
-.contact-method i {
-
-    left:0;
-    top:0;
-    width: 100%;
-    height: 100%;
-    font-size: 30px;
-    line-height: 140px;
-    background: #34495e;
-    z-index: 1;
-    overflow: hidden;
-    
 }
 
-.contact-method span {
-  
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    padding: 10px 0;
+/*iPhone landscape*/
+
+@media only screen and (max-width: 490px) {
+.title-bg img {
+    width: 300px;
+    height: 300px;
+    padding-bottom: 20px;
 }
-
-.contact-method:hover i{
-   
+.aeglogo {
+    width: 200px;
 }
-
-*/
-
+    nav ul {
+    list-style: none;
+    padding-left: 0;
+        text-align: center;
+}
+    .contact-button {
+        display: block;
+}
+.professor {
+    padding: 20px;
+}
 
 }
 
