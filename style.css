@@ -494,11 +494,14 @@ iframe {
     body {
         color: dimgrey;
     }
+    .header-container {
+    padding-top: 15rem;
+    }
+    
     nav ul {
     list-style: none;
     padding-left: 0;
     text-align: center;
-    vertical-align: middle;
     padding-top: 20px;
     }
 }
@@ -551,7 +554,7 @@ nav ul {
 @media only screen and (max-width: 375px) {
 
     .header-container {
-        padding-top: 13.25rem;
+        padding-top: 18rem;
     }
     .title-bg img {
         width: 250px;
@@ -569,7 +572,7 @@ nav ul {
     }
     
     .header-container {
-       padding-top: 12.5rem; 
+       padding-top: 13rem; 
     }
 }
 
@@ -581,7 +584,7 @@ nav ul {
     }
     
     .header-container {
-        padding-top: 10rem;
+        padding-top: 12rem;
     }
     .title-bg img {
     width: 250px;
