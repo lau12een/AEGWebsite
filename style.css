@@ -287,27 +287,16 @@ td.label {
 /*Ron Gallery */
 
 
-div.rongallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-    justify-content: center;
-  width: 180px;
-}
-
-div.rongallery:hover {
-  border: 1px solid #777;
-}
-
-div.rongallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
+.carousel {
+    margin: 0 auto;
+    width:800px;
+    height: 300px;
+    display: relative;
+  }
+  .carousel img {
+    display: hidden; /* hide images until carousel prepares them */
+    cursor: pointer; 
+  }
 
 .bio {
     display: inline-block;
