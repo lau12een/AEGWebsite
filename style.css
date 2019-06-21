@@ -89,7 +89,7 @@ section {
     border-radius: 50%;
 }
 
-.aeglogo {
+.aegLogo {
     width: 400px;
 }
 
@@ -118,7 +118,7 @@ section.about-instructor img {
     background-color: #eee;
 }
 
-.white-bg {
+.whiteBg {
     background-color: white;
 }
 
@@ -221,7 +221,7 @@ nav li {
     
 }
 
-.contact-button {
+.contactButton {
     background-color: rgba(255, 255, 255, 0.075);
     padding: 10px;
     text-decoration: none;
@@ -230,15 +230,15 @@ nav li {
     font-size: 1.2em;
 }
 
-.contact-button:hover {
+.contactButton:hover {
     background-color: rgba(255, 255, 255, 0.164);
 }
 
-.contact-button:focus {
+.contactButton:focus {
     border-color: #78b2cb;
 }
 
-.contact-button:active {
+.contactButton:active {
     border-color: #78b2cb;
 }
 
@@ -326,7 +326,7 @@ td.label {
     color: white;
 }
 /*Ron slides*/
-.ron-container {
+.ronContainer {
    max-width: 900px;
   position: relative;
   margin: auto;
@@ -340,7 +340,7 @@ td.label {
 
 
 /* Slideshow container */
-.slideshow-container {
+.slideshowContainer {
   max-width: 900px;
   position: relative;
   margin: auto;
@@ -534,7 +534,7 @@ nav ul {
     padding-left: 0;
         text-align: center;
 }
-.contact-button {
+.contactButton {
         display: block;
 }
 .professor {
@@ -596,7 +596,7 @@ nav ul {
     padding-left: 0;
         text-align: center;
 }
-        .contact-button {
+        .contactButton {
         display: block;
 }
 }
