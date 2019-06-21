@@ -114,7 +114,7 @@ section.about-instructor img {
 }
 
 /* colors background of sections grey */
-.grey-bg {
+.greyBg {
     background-color: #eee;
 }
 
@@ -152,7 +152,7 @@ h3 {
 
 
 /* Navigation Bar Across Top */
-.nav-bar {
+.navBar {
     display: flex;
     flex-flow: row wrap;
  justify-content: space-around;
@@ -187,11 +187,11 @@ nav li {
     padding-left: 10px;
 }
 
-.social_icon {
+.socialIcon {
     font-size: 25px;
 }
 /* Display hero image background - not repeated */
-.hero-image {
+.heroImage {
     min-height: 100vh;
     background: none;
     color: white;
@@ -199,7 +199,7 @@ nav li {
 
 
 
-.header-container {
+.headerContainer {
     margin: 0 auto;
     min-width: 320px;
     padding-top: 15rem;
@@ -207,7 +207,7 @@ nav li {
 }
 /* Contact Secion*/
 
-.contact-container {
+.contactContainer {
     width: 100%;
     top: 100%;
     text-align:center;
@@ -215,7 +215,7 @@ nav li {
     font-size: 20px; 
 }
 
-.contact-container h3{
+.contactContainer h3{
     text-align: center;
     font-size: 2em;
     
@@ -276,14 +276,14 @@ label {
     color: #111;
 }
 
-.title-bg {
+.titleBg {
     background-color: rgba(255,255,255,0.8);
     padding: 40px 40px 40px 40px;
     max-width: 600px;
     margin: 0 auto;
 }
 
-.title-bg img {
+.titleBg img {
     width: 500px;
     height: 500px;
     padding-bottom: 20px;
@@ -475,7 +475,7 @@ iframe {
     body {
         color: dimgrey;
     }
-    .header-container {
+    .headerContainer {
         padding-top: 25rem;
     }
     nav ul {
@@ -490,12 +490,12 @@ iframe {
 
 /*ipad potrait*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (device-width: 768px) {
     body {
         color: dimgrey;
     }
-    .header-container {
-    padding-top: 15rem;
+    .headerContainer {
+    padding-top: 10rem;
     }
     
     nav ul {
@@ -514,7 +514,7 @@ iframe {
     body {
         color: dimgrey;
     }
-    .header-container {
+    .headerContainer {
     margin: 0 auto;
     min-width: 320px;
     padding-top: 15.5rem;
@@ -522,7 +522,7 @@ iframe {
     }
 
     
-.title-bg img {
+.titleBg img {
     width: 300px;
     height: 300px;
     padding-bottom: 20px;
@@ -545,7 +545,7 @@ nav ul {
 
 /*iphonse 6,7,8 PLUS */
 @media only screen and (max-width: 414px){
-     .header-container {
+     .headerContainer{
         padding-top: 13.5rem;
     }
   
@@ -553,10 +553,10 @@ nav ul {
 /*iphonse 6,7,8 */
 @media only screen and (max-width: 375px) {
 
-    .header-container {
+    .headerContainer {
         padding-top: 18rem;
     }
-    .title-bg img {
+    .titleBg img {
         width: 250px;
         height: 250px;
          padding:auto;
@@ -571,7 +571,7 @@ nav ul {
         color: dimgrey;
     }
     
-    .header-container {
+    .headerContainer {
        padding-top: 13rem; 
     }
 }
@@ -583,10 +583,10 @@ nav ul {
         color: dimgrey;
     }
     
-    .header-container {
+    .headerContainer {
         padding-top: 12rem;
     }
-    .title-bg img {
+    .titleBg img {
     width: 250px;
     height: 250px;
     padding:auto;
