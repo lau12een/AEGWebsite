@@ -338,7 +338,10 @@ td.label {
     display: inline-block;
 }
 
-
+.bio ul {
+    list-style-type: circle;
+    margin-left: 30px;
+}
 
 /* Slideshow container */
 .slideshowContainer {
