@@ -338,6 +338,11 @@ td.label {
     display: inline-block;
 }
 
+.container ul {
+     list-style-type: circle;
+    margin-left: 30px;
+}
+
 .bio ul {
     list-style-type: circle;
     margin-left: 30px;
