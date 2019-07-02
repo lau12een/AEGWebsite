@@ -150,7 +150,22 @@ h3 {
     margin: 0;
 }
 
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
 
+
+/*images in Schedule section */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 0px:
+}
 /* Navigation Bar Across Top */
 .navBar {
     display: flex;
@@ -303,8 +318,8 @@ td {
 }
 
 table {
-    border-spacing: 1px;
-    
+    border-spacing: 1px;   
+    padding-bottom: 20px;
 }
 
 th,
