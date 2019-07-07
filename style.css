@@ -605,10 +605,7 @@ iframe {
 
 /*Galaxy S5 portrait */
 @media only screen and (max-width: 360px) {
-    body {
-        color: dimgrey;
-    }
-    
+
     .headerContainer {
        padding-top: 400px; 
     }
@@ -617,13 +614,12 @@ iframe {
 /*iPhone portrait*/
 
 @media only screen and (max-width: 320px) {
-    body {
-        color: dimgrey;
-    }
+
     
     .headerContainer {
         padding-top: 400px;
     }
+    
     .titleBg img {
     width: 250px;
     height: 250px;
