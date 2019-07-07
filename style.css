@@ -218,7 +218,7 @@ nav li {
 .headerContainer {
     margin: 0 auto;
     min-width: 320px;
-    padding-top: 15rem;
+    padding-top: 250px;
     text-align: center;
 }
 /* Contact Secion*/
@@ -309,6 +309,12 @@ ul {
     list-style: none;
 }
 /*Schedule Section  Tables*/
+.adultPic {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 table,
 th,
 td {
@@ -499,34 +505,41 @@ iframe {
     body {
         color: dimgrey;
     }
-    .headerContainer {
-        padding-top: 25rem;
-    }
     nav ul {
     list-style: none;
     padding-left: 0;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 10px;
     }
 }
+}
+
+@media only screen and (max-width: 1024px) {
+    img.aegLogo {
+        width:400px;
+    }
 }
 
 
 /*ipad potrait*/
 
-@media only screen and (device-width: 768px) {
+@media only screen and (device-width: 525px) {
     body {
         color: dimgrey;
     }
-    .headerContainer {
-    padding-top: 10rem;
+    
+    div.headerContainer {
+        padding-top: 300px;
     }
     
     nav ul {
     list-style: none;
     padding-left: 0;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    
     }
 }
 
@@ -541,7 +554,7 @@ iframe {
     .headerContainer {
     margin: 0 auto;
     min-width: 320px;
-    padding-top: 15.5rem;
+    padding-top: 350px;
     text-align: center;
     }
 
@@ -553,10 +566,11 @@ iframe {
 }
     
     
-nav ul {
+.navBar ul {
     list-style: none;
     padding-left: 0;
-        text-align: center;
+    text-align: center;
+    padding-top: 10px;
 }
 .contactButton {
         display: block;
@@ -570,7 +584,7 @@ nav ul {
 /*iphonse 6,7,8 PLUS */
 @media only screen and (max-width: 414px){
      .headerContainer{
-        padding-top: 13.5rem;
+        padding-top: 375px;
     }
   
 }
@@ -596,7 +610,7 @@ nav ul {
     }
     
     .headerContainer {
-       padding-top: 13rem; 
+       padding-top: 400px; 
     }
 }
 
@@ -608,7 +622,7 @@ nav ul {
     }
     
     .headerContainer {
-        padding-top: 12rem;
+        padding-top: 400px;
     }
     .titleBg img {
     width: 250px;
